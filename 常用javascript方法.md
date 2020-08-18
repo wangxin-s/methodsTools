@@ -28,7 +28,7 @@ export const isString = (o) => {
 }
 ```
 
-##6，是否是数字 11
+##6，是否是数字 
 ```
 export const isNumber = (o) => {
     return Object.prototype.toString.call(o).slice(8, -1) === 'Number'
